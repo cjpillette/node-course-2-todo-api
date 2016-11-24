@@ -2,8 +2,7 @@
 const {MongoClient, ObjectID} = require('mongodb');
 //ES6 destructure user object by turning pty into var
 
-var obj = new ObjectID();
-console.log(obj);
+
 
 MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
 	if (err){
